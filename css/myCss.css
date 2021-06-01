@@ -345,14 +345,34 @@ p
     width: 10%;
     margin: 20px auto;
 }
+.process .row .process-content{
+    cursor: pointer;
+    transition: 0.5s;
+    padding-bottom: 5px;
+}
+.process .row .process-content:hover{
+    transform: translateY(-10px);
+    background-color: var(--mainColor);
+    border-radius: 10px;
+}
+.process .row .process-content:hover i{
+    color: #fff;
+    border: 2px solid #fff;
+}
+.process .row .process-content:hover p,
+.process .row .process-content:hover h5{
+    color: #fff;
+}
 .process .row h5
 {
     font-size: 16px;
-    font-weight: bold
+    font-weight: bold;
+    transition: 0.5s;
 }
 .process .row p
 {
     font-size: 13px;
+    transition: 0.5s;
 }
 .process .row i {
     font-size: 22px;
@@ -436,6 +456,11 @@ p
 .testimonials .row p
 {
     font-size: 15px;
+    transition: 0.5s;
+}
+.testimonials .row p:first-child:hover{
+    background-color: var(--mainColor);
+    color: #fff;
 }
 .testimonials .row p:first-child
 {
