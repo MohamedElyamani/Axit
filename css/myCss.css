@@ -362,7 +362,7 @@ p
 .process .row .process-content:hover p,
 .process .row .process-content:hover h5{
     color: #fff;
-}
+}  color: #fff;
 .process .row h5
 {
     font-size: 16px;
